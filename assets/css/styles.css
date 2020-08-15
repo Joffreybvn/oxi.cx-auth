@@ -1,3 +1,27 @@
+
+:root {
+    --black: #001524;
+    --blacktext: #16181b;
+    --white: #f8f9fa;
+    --blue: #98c1d9;
+}
+
+.container {
+    max-width: 960px;
+}
+
+h1, h2, .navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    color: var(--blacktext)
+}
+
+p {
+    font-family: "Muli", sans-serif;
+}
+
 html,
 body {
     height: 100%;
@@ -17,9 +41,11 @@ body {
     padding: 15px;
     margin: auto;
 }
+
 .form-signin .checkbox {
     font-weight: 400;
 }
+
 .form-signin .form-control {
     position: relative;
     box-sizing: border-box;
@@ -27,14 +53,17 @@ body {
     padding: 10px;
     font-size: 16px;
 }
+
 .form-signin .form-control:focus {
     z-index: 2;
 }
+
 .form-signin input[type="email"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .form-signin input[type="password"] {
     margin-bottom: 10px;
     border-top-left-radius: 0;
